@@ -1,0 +1,17 @@
+html, body {
+  margin: 0;
+  height: 100%;
+  overflow: hidden; /* убираем прокрутку страницы */
+}
+
+#viewport {
+  position: fixed;
+  inset: 0;          /* растягиваем на весь экран */
+  overflow: hidden;
+  background: #1a1a1a; /* любой фон, чтобы видеть границы */
+}
+
+#content {
+  user-select: none;
+  -webkit-user-drag: none;
+}
